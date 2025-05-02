@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Cairo:wght@200..1000&family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+body {
+    font-family: "IBM Plex Sans Arabic", sans-serif;
+}
+
+.register-btn {
+    background-color: #4f29b7;
+    color: white;
+    font-weight: bold;
+    max-width: 40%;
+    padding: 0.6rem 2rem;
+    border-radius: 1rem;
+}
+
+.register-btn:hover {
+    background-color: #581c87;
+    color: white;
+}
+
+.footer-link {
+    text-decoration: none;
+    color:#4f29b7;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+}
+
+.social-icon-link {
+    background-color: #4f29b7;
+    text-align: center;
+    color: white;
+    height: 2.25rem;
+    width: 2.75rem;
+    border-radius: 9999px;
+    padding-top: 5px;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+
+.social-icon-link:hover {
+    opacity: 0.7;
+}
