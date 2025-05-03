@@ -127,356 +127,84 @@
     </header>
 
     <main>
-      <section class="container-fluid py-5 bg-light">
-        <div class="d-flex justify-content-between align-items-center mb-4">
-          <!-- Navigation Controls -->
-          <div class="d-none d-md-flex gap-2">
-            <div
-              class="d-flex p-2 rounded-pill"
-              style="background-color: #eeeeee"
-            >
-              <img
-                src="https://cdn-icons-png.flaticon.com/512/2989/2989988.png"
-                alt=""
-                width="25"
-              />
-            </div>
-            <div
-              class="d-flex p-2 rounded-pill"
-              style="background-color: #eeeeee"
-            >
-              <img
-                src="https://cdn-icons-png.flaticon.com/512/2722/2722991.png"
-                alt=""
-                width="25"
-              />
-            </div>
+      <section class="container-fluid px-4 mx-auto" style="max-width: 1680px">
+        <div
+          class="row justify-content-between align-items-center rounded-4 p-5"
+          style="background-color: #b4ebe7"
+        >
+          <!-- Form Column Start -->
+          <div class="col-md-8">
+            <form class="w-100">
+              <h2 class="mb-4 fs-3 fw-semibold" style="color: #653cdd">
+                اشترك في النشرة البريدية
+              </h2>
 
-            <!-- Arrows -->
+              <div class="row g-3 mb-4">
+                <div class="col-md-6">
+                  <input
+                    type="text"
+                    class="form-control form-control-lg rounded-3"
+                    placeholder="الاسم الأول"
+                    required
+                  />
+                </div>
+
+                <div class="col-md-6">
+                  <input
+                    type="text"
+                    class="form-control form-control-lg rounded-3"
+                    placeholder="الاسم الأخير"
+                    required
+                  />
+                </div>
+              </div>
+
+              <div class="row g-3 align-items-center">
+                <div class="col-md-8">
+                  <input
+                    type="email"
+                    class="form-control form-control-lg rounded-3"
+                    placeholder="name@email.com"
+                    required
+                  />
+                </div>
+
+                <div class="col-md-3">
+                  <button
+                    type="submit"
+                    class="btn btn-lg w-100 text-white rounded-3 d-flex align-items-center justify-content-center gap-2"
+                    style="background-color: #4f29b7"
+                  >
+                    اشترك الآن
+                    <svg
+                      class="bi"
+                      style="width: 1.5rem; height: 1.5rem; fill: white"
+                      viewBox="0 0 512 512"
+                    >
+                      <path
+                        class="fa-secondary"
+                        opacity="1"
+                        d="M0 288c0 .7 0 1.3 .1 2c.8 12.2 8.4 22.9 19.6 27.6l112 46.7L160 376l0-8c0-4.2 1.7-8.3 4.7-11.3l13-13c59.6-59.6 119.2-119.2 178.8-178.7c.1-.1 .2-.2 .2-.3c3-3 6.8-4.5 10.7-4.7s7.9 1.1 11 3.9c3.7 3.3 5.6 7.7 5.6 12.1c0 3.4-1.1 6.8-3.3 9.7L224 389.4l0 13.2c20 8.3 40 16.7 60 25c39.9 16.6 79.8 33.2 119.7 49.9c9.1 3.8 19.4 3.2 28-1.6s14.5-13.3 16-23l64-416c1.9-12.1-3.4-24.3-13.5-31.2C492.7 1.9 486.4 0 480 0c-5.5 0-10.9 1.4-15.9 4.2l-448 256C6.1 265.9 0 276.6 0 288z"
+                      ></path>
+                      <path
+                        class="fa-secondary"
+                        opacity="1"
+                        d="M0 288c0 .7 0 1.3 .1 2c.8 12.2 8.4 22.9 19.6 27.6l112 46.7L160 376l0-8c0-4.2 1.7-8.3 4.7-11.3l13-13c59.6-59.6 119.2-119.2 178.8-178.7c.1-.1 .2-.2 .2-.3c3-3 6.8-4.5 10.7-4.7s7.9 1.1 11 3.9c3.7 3.3 5.6 7.7 5.6 12.1c0 3.4-1.1 6.8-3.3 9.7L224 389.4l0 13.2c20 8.3 40 16.7 60 25c39.9 16.6 79.8 33.2 119.7 49.9c9.1 3.8 19.4 3.2 28-1.6s14.5-13.3 16-23l64-416c1.9-12.1-3.4-24.3-13.5-31.2C492.7 1.9 486.4 0 480 0c-5.5 0-10.9 1.4-15.9 4.2l-448 256C6.1 265.9 0 276.6 0 288z"
+                      ></path>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </form>
           </div>
-        </div>
+          <!-- Form Column End -->
 
-        <!-- Horizontal Scroll Container -->
-        <div class="d-flex overflow-x-auto pb-3 gap-4 scrollbar-hidden">
-          <!-- News Card 1 -->
-          <div
-            class="position-relative d-flex flex-column justify-content-end overflow-hidden rounded-4 shadow-lg bg-zoom-transition"
-            style="
-              width: 356px;
-              height: 538px;
-              flex-shrink: 0;
-              scroll-snap-align: start;
-            "
-          >
-            <!-- Image -->
+          <div class="col-md-3 d-none d-md-block">
             <img
-              src="https://cdn.tuwaiq.edu.sa/landing/news/hg1ea1q1.4at.jpg"
+              src="https://tuwaiq.edu.sa/img/ART/Asset%209.svg"
               alt=""
-              class="position-absolute top-0 start-0 w-100 h-100 object-fit-cover transition-all"
-              style="transition-duration: 700ms"
+              class="img-fluid"
             />
-
-            <!-- Gradient Overlay -->
-            <div
-              class="position-absolute top-0 start-0 w-100 h-100 rounded-4"
-              style="
-                background: linear-gradient(
-                  to top,
-                  rgba(0, 0, 0, 0.56) 15%,
-                  transparent
-                );
-                transition: opacity 700ms ease-in-out;
-              "
-            ></div>
-
-            <!-- Content -->
-            <figure class="position-relative p-4 mb-0">
-              <blockquote
-                class="text-white fs-5 fw-normal mb-4 position-relative"
-                style="padding-right: 1.25rem"
-              >
-                إطلاق "أكاديمية الكراج" بالشراكة مع أكاديمية طويق لدعم مشاريع
-                مُسرّعة وحاضنة الكراج
-              </blockquote>
-
-              <div
-                class="d-flex justify-content-between align-items-center pt-3 border-top border-white-40"
-              >
-                <figcaption class="text-white">05/05/2025</figcaption>
-
-                <!-- More Button -->
-                <a
-                  href="#"
-                  class="position-relative d-flex align-items-center justify-content-center bg-white rounded-circle text-decoration-none"
-                  style="
-                    width: 48px;
-                    height: 48px;
-                    overflow: hidden;
-                    transition: all 500ms ease-in-out;
-                  "
-                >
-                  <span
-                    class="position-absolute text-black opacity-0 translate-x-n100"
-                    style="transition: all 300ms ease-in-out"
-                  >
-                    المزيد
-                  </span>
-
-                  <svg
-                    class="position-absolute"
-                    style="left: 15px; width: 18px; height: 24px"
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 384 512"
-                  >
-                    <path
-                      fill="currentColor"
-                      d="M48 96c-8.8 0-16 7.2-16 16l0 224c0 8.8 7.2 16 16 16s16-7.2 16-16l0-185.4L324.7 411.3c6.2 6.2 16.4 6.2 22.6 0s6.2-16.4 0-22.6L86.6 128 272 128c8.8 0 16-7.2 16-16s-7.2-16-16-16L48 96z"
-                    ></path>
-                  </svg>
-                </a>
-              </div>
-            </figure>
-          </div>
-
-          <!-- Card 2 -->
-          <div
-            class="position-relative d-flex flex-column justify-content-end overflow-hidden rounded-4 shadow-lg bg-zoom-transition"
-            style="
-              width: 356px;
-              height: 538px;
-              flex-shrink: 0;
-              scroll-snap-align: start;
-            "
-          >
-            <!-- Image -->
-            <img
-              src="https://cdn.tuwaiq.edu.sa/landing/news/ce2t3lcl.su1.png"
-              alt=""
-              class="position-absolute top-0 start-0 w-100 h-100 object-fit-cover transition-all"
-              style="transition-duration: 700ms"
-            />
-
-            <!-- Gradient Overlay -->
-            <div
-              class="position-absolute top-0 start-0 w-100 h-100 rounded-4"
-              style="
-                background: linear-gradient(
-                  to top,
-                  rgba(0, 0, 0, 0.56) 15%,
-                  transparent
-                );
-                transition: opacity 700ms ease-in-out;
-              "
-            ></div>
-
-            <!-- Content -->
-            <figure class="position-relative p-4 mb-0">
-              <blockquote
-                class="text-white fs-5 fw-normal mb-4 position-relative"
-                style="padding-right: 1.25rem"
-              >
-                طلاب أكاديمية طويق ومدارس مسك يحصدون 4 ميداليات ذهبية وبرونزية
-                في مسابقة معرض جنيف الدولي للاختراعات
-              </blockquote>
-
-              <div
-                class="d-flex justify-content-between align-items-center pt-3 border-top border-white-40"
-              >
-                <figcaption class="text-white">13/04/2025</figcaption>
-
-                <!-- More Button -->
-                <a
-                  href="#"
-                  class="position-relative d-flex align-items-center justify-content-center bg-white rounded-circle text-decoration-none"
-                  style="
-                    width: 48px;
-                    height: 48px;
-                    overflow: hidden;
-                    transition: all 500ms ease-in-out;
-                  "
-                >
-                  <span
-                    class="position-absolute text-black opacity-0 translate-x-n100"
-                    style="transition: all 300ms ease-in-out"
-                  >
-                    المزيد
-                  </span>
-
-                  <svg
-                    class="position-absolute"
-                    style="left: 15px; width: 18px; height: 24px"
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 384 512"
-                  >
-                    <path
-                      fill="currentColor"
-                      d="M48 96c-8.8 0-16 7.2-16 16l0 224c0 8.8 7.2 16 16 16s16-7.2 16-16l0-185.4L324.7 411.3c6.2 6.2 16.4 6.2 22.6 0s6.2-16.4 0-22.6L86.6 128 272 128c8.8 0 16-7.2 16-16s-7.2-16-16-16L48 96z"
-                    ></path>
-                  </svg>
-                </a>
-              </div>
-            </figure>
-          </div>
-
-          <!-- Card 3 -->
-
-          <div
-            class="position-relative d-flex flex-column justify-content-end overflow-hidden rounded-4 shadow-lg bg-zoom-transition"
-            style="
-              width: 356px;
-              height: 538px;
-              flex-shrink: 0;
-              scroll-snap-align: start;
-            "
-          >
-            <!-- Image -->
-            <img
-              src="https://cdn.tuwaiq.edu.sa/landing/news/15mnxx1h.n5k.png"
-              alt=""
-              class="position-absolute top-0 start-0 w-100 h-100 object-fit-cover transition-all"
-              style="transition-duration: 700ms"
-            />
-
-            <!-- Gradient Overlay -->
-            <div
-              class="position-absolute top-0 start-0 w-100 h-100 rounded-4"
-              style="
-                background: linear-gradient(
-                  to top,
-                  rgba(0, 0, 0, 0.56) 15%,
-                  transparent
-                );
-                transition: opacity 700ms ease-in-out;
-              "
-            ></div>
-
-            <!-- Content -->
-            <figure class="position-relative p-4 mb-0">
-              <blockquote
-                class="text-white fs-5 fw-normal mb-4 position-relative"
-                style="padding-right: 1.25rem"
-              >
-                أكاديمية طويق تحتفي بفوز طالباتها في تحدي آبل العالمي
-              </blockquote>
-
-              <div
-                class="d-flex justify-content-between align-items-center pt-3 border-top border-white-40"
-              >
-                <figcaption class="text-white">10/04/2025</figcaption>
-
-                <!-- More Button -->
-                <a
-                  href="#"
-                  class="position-relative d-flex align-items-center justify-content-center bg-white rounded-circle text-decoration-none"
-                  style="
-                    width: 48px;
-                    height: 48px;
-                    overflow: hidden;
-                    transition: all 500ms ease-in-out;
-                  "
-                >
-                  <span
-                    class="position-absolute text-black opacity-0 translate-x-n100"
-                    style="transition: all 300ms ease-in-out"
-                  >
-                    المزيد
-                  </span>
-
-                  <svg
-                    class="position-absolute"
-                    style="left: 15px; width: 18px; height: 24px"
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 384 512"
-                  >
-                    <path
-                      fill="currentColor"
-                      d="M48 96c-8.8 0-16 7.2-16 16l0 224c0 8.8 7.2 16 16 16s16-7.2 16-16l0-185.4L324.7 411.3c6.2 6.2 16.4 6.2 22.6 0s6.2-16.4 0-22.6L86.6 128 272 128c8.8 0 16-7.2 16-16s-7.2-16-16-16L48 96z"
-                    ></path>
-                  </svg>
-                </a>
-              </div>
-            </figure>
-          </div>
-
-          <!-- Card 4 -->
-          <div
-            class="position-relative  bg-zoom-transition  d-flex flex-column justify-content-end overflow-hidden rounded-4 shadow-lg"
-            style="
-              width: 356px;
-              height: 538px;
-              flex-shrink: 0;
-              scroll-snap-align: start;
-            "
-          >
-            <!-- Image -->
-            <div class="position-absolute top-0 start-0 w-100 h-100 overflow-hidden">
-              <img
-                src="https://cdn.tuwaiq.edu.sa/landing/news/wdpsjse5.zqv.jpeg"
-                alt=""
-                class="w-100 h-100 object-fit-cover"
-              />
-            </div>
-
-            <!-- Gradient Overlay -->
-            <div
-              class="position-absolute top-0 start-0 w-100 h-100 rounded-4"
-              style="
-                background: linear-gradient(
-                  to top,
-                  rgba(0, 0, 0, 0.56) 15%,
-                  transparent
-                );
-                transition: opacity 700ms ease-in-out;
-              "
-            ></div>
-
-            <!-- Content -->
-            <figure class="position-relative p-4 mb-0">
-              <blockquote
-                class="text-white fs-5 fw-normal mb-4 position-relative"
-                style="padding-right: 1.25rem"
-              >
-                أكاديمية طويق تطلق برنامج قادة تقنيات المستقبل برعاية البرنامج
-                الوطني لتنمية تقنية المعلومات
-              </blockquote>
-
-              <div
-                class="d-flex justify-content-between align-items-center pt-3 border-top border-white-40"
-              >
-                <figcaption class="text-white">06/04/2025</figcaption>
-
-                <!-- More Button -->
-                <a
-                  href="#"
-                  class="position-relative d-flex align-items-center justify-content-center bg-white rounded-circle text-decoration-none"
-                  style="
-                    width: 48px;
-                    height: 48px;
-                    overflow: hidden;
-                    transition: all 500ms ease-in-out;
-                  "
-                >
-                  <span
-                    class="position-absolute text-black opacity-0 translate-x-n100"
-                    style="transition: all 300ms ease-in-out"
-                  >
-                    المزيد
-                  </span>
-
-                  <svg
-                    class="position-absolute"
-                    style="left: 15px; width: 18px; height: 24px"
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 384 512"
-                  >
-                    <path
-                      fill="currentColor"
-                      d="M48 96c-8.8 0-16 7.2-16 16l0 224c0 8.8 7.2 16 16 16s16-7.2 16-16l0-185.4L324.7 411.3c6.2 6.2 16.4 6.2 22.6 0s6.2-16.4 0-22.6L86.6 128 272 128c8.8 0 16-7.2 16-16s-7.2-16-16-16L48 96z"
-                    ></path>
-                  </svg>
-                </a>
-              </div>
-            </figure>
           </div>
         </div>
       </section>
