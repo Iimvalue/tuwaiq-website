@@ -97,13 +97,14 @@ body::before {
   box-shadow: 8px 8px #62c462;
 }
 
-.card-soon{
-    
-    background-color: #f5f5f7;
+.card-soon {
+  background-color: #f5f5f7;
 }
 
-
 .big‑bullets li::marker {
-    font-size: 2em;
+  font-size: 2em;
+}
 
-  }
+a {
+  text-decoration: none;
+}
