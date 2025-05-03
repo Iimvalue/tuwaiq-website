@@ -65,5 +65,34 @@ body::before {
 .card-holebrton {
   background: url("https://tuwaiq.edu.sa/img/Holberton.png") no-repeat;
   background-size: cover;
+}
 
+.card-hover-blue {
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  cursor: pointer;
+}
+
+.card-hover-blue:hover {
+  border-color: 8px 8px #6e91c3;
+  box-shadow: 8px 8px #6e91c3;
+}
+
+.card-hover-pink {
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  cursor: pointer;
+}
+
+.card-hover-pink:hover {
+  border-color: 8px 8px #d278c9;
+  box-shadow: 8px 8px #d278c9;
+}
+
+.card-hover-green {
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  cursor: pointer;
+}
+
+.card-hover-green:hover {
+  border-color: 8px 8px #62c462;
+  box-shadow: 8px 8px #62c462;
 }
