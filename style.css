@@ -108,3 +108,11 @@ body::before {
 a {
   text-decoration: none;
 }
+
+
+.bg-zoom-transition {
+  transition: all 0.7s cubic-bezier(.4,0,.2,1);
+}
+
+.bg-zoom-transition:hover {
+  transform: scale(1.03) rotate(3deg); /* Adjusted for subtle rotation */}
