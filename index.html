@@ -88,7 +88,9 @@
                 <li class="nav-item">
                   <a class="nav-link text-dark" href="#">الأكادميات التابعة</a>
                 </li>
-                <li class="nav-item d-flex align-items-center d-lg-block d-md-block d-none">
+                <li
+                  class="nav-item d-flex align-items-center d-lg-block d-lg-block d-none"
+                >
                   <div class="vr" style="height: 28px"></div>
                 </li>
 
@@ -106,7 +108,9 @@
                   <a class="nav-link text-dark" href="#">الإعتمادات</a>
                 </li>
 
-                <li class="nav-item d-flex align-items-center d-lg-block d-none">
+                <li
+                  class="nav-item d-flex align-items-center d-lg-block d-none"
+                >
                   <div class="vr" style="height: 28px"></div>
                 </li>
 
@@ -154,7 +158,7 @@
     <main>
       <!-- First Section Start -->
       <section>
-        <div class="container-fluid mb-5" style="height: 30rem">
+        <div class="container-fluid mb-5">
           <div class="row h-100 g-3 g-md-4">
             <!-- Right Card Start-->
             <div class="col-12 col-md-8 col-lg-9">
@@ -385,33 +389,46 @@
                     <div class="row row-cols-3" style="min-height: 15vh">
                       <div class="col-4">
                         <div
-                          class="card h-100"
+                          class="card h-75"
                           style="background-color: #ffffffa6"
                         >
-                          <div class="card-body h-50 p-0">
-                            <p>Laptop</p>
+                          <div class="card-body">
+                            <img
+                              class="img-fluid"
+                              src="https://tuwaiq.edu.sa/img/6.svg"
+                              alt="Keyboard"
+                            />
                           </div>
                         </div>
                       </div>
 
                       <div class="col-4">
                         <div
-                          class="card h-100"
+                          class="card h-75"
                           style="background-color: #ffffffa6"
                         >
-                          <div class="card-body h-50 p-0">
-                            <p>VR Headset</p>
+                          <div class="card-body">
+                            <img
+                              class="img-fluid"
+                              src="https://tuwaiq.edu.sa/img/11.svg"
+                              alt="VR Headset"
+                              class=""
+                            />
                           </div>
                         </div>
                       </div>
 
                       <div class="col-4">
                         <div
-                          class="card h-100"
+                          class="card h-75"
                           style="background-color: #ffffffa6"
                         >
                           <div class="card-body h-75 p-0">
-                            <p style="font-size: 14px">Keyboard</p>
+                            <img
+                              class="img-fluid"
+                              src="https://tuwaiq.edu.sa/img/1.svg"
+                              alt="Keyboard"
+                            />
                           </div>
                         </div>
                       </div>
@@ -426,8 +443,8 @@
 
         <!-- Next Three Cards Start -->
         <div
-          class="container-fluid mt-5 col-12 col-md-9"
-          style="height: 30rem; width: fit-content"
+          class="container-fluid mt-5 col-12 col-md-9 mb-5"
+          style="width: fit-content"
         >
           <div class="row row-cols-1 row-cols-md-3 g-3 g-md-4">
             <div class="col">
@@ -596,46 +613,50 @@
       <!-- First Section End -->
 
       <!-- Second Section Start -->
+
       <section class="mb-5">
         <div class="container-fluid">
-          <div class="container py-5 px-0 m-0">
-            <div class="d-flex align-items-center gap-5 mb-5">
-              <h2 class="">ينتهي التسجيل قريبًا</h2>
-              <a
-                class=""
-                style="
-                  color: rgb(102, 172, 255);
-                  text-decoration: none;
-                  font-size: 1.1rem;
-                "
-                href="/bootcamps?category=c616115c-5cf8-426d-9f70-42eb370ca37d&amp;type=NORMAL"
+          <div class="d-flex align-items-center gap-5 mb-5">
+            <h2 class="m-0">ينتهي التسجيل قريبًا</h2>
+            <a
+              class="d-flex align-items-center gap-2"
+              style="
+                color: rgb(102, 172, 255);
+                text-decoration: none;
+                font-size: 1.1rem;
+              "
+              href="/bootcamps?category=c616115c-5cf8-426d-9f70-42eb370ca37d&amp;type=NORMAL"
+            >
+              عرض المزيد
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
               >
-                عرض المزيد
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="1.5"
-                    d="m15 5l-6 7l6 7"
-                  ></path>
-                </svg>
-              </a>
-            </div>
+                <path
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1.5"
+                  d="m15 5l-6 7l6 7"
+                ></path>
+              </svg>
+            </a>
+          </div>
 
-            <div class="row row-cols-3 g-4" style="height: 70vh">
-              <!-- Laptop Card -->
-              <div class="col-4">
-                <div
-                  class="card h-100 p-0 px-3 pt-5 mb-5 rounded-5 border-0"
-                  style="background-color: #f5f5f7"
-                >
+          <div
+            class="row flex-nowrap overflow-x-auto g-4 pb-3"
+            style="height: auto"
+          >
+            <!-- Cards -->
+            <div class="col-12 col-md-4" style="min-width: 300px">
+              <div
+                class="card h-100 p-0 px-3 pt-5 mb-5 rounded-5 border-0 bg-light"
+              >
+                <!-- Laptop Card -->
+                <div>
                   <img
                     src="https://cdn.tuwaiq.edu.sa/initiatives_admin/images/fyslu0tm.5x3.png"
                     class="card-img-top p-4"
@@ -673,13 +694,14 @@
                   </div>
                 </div>
               </div>
+            </div>
 
-              <!-- Chip Card -->
-              <div class="col-4">
-                <div
-                  class="card h-100 p-0 px-3 pt-5 mb-5 rounded-5 border-0"
-                  style="background-color: #f5f5f7"
-                >
+            <div class="col-12 col-md-4" style="min-width: 300px">
+              <div
+                class="card h-100 p-0 px-3 pt-5 mb-5 rounded-5 border-0 bg-light"
+              >
+                <!-- Chip Card -->
+                <div>
                   <img
                     src="https://cdn.tuwaiq.edu.sa/initiatives_admin/images/psvxh1jc.vwh.png"
                     class="card-img-top p-4"
@@ -719,13 +741,61 @@
                   </div>
                 </div>
               </div>
+            </div>
 
-              <!-- Mind Card -->
-              <div class="col-4">
-                <div
-                  class="card h-100 p-0 px-3 pt-5 mb-5 rounded-5 border-0"
-                  style="background-color: #f5f5f7"
-                >
+            <div class="col-12 col-md-4" style="min-width: 300px">
+              <div
+                class="card h-100 p-0 px-3 pt-5 mb-5 rounded-5 border-0 bg-light"
+              >
+                <!-- Mind Card -->
+                <div>
+                  <img
+                    src="https://cdn.tuwaiq.edu.sa/initiatives_admin/images/pxhazeai.5tg.png"
+                    class="card-img-top p-4"
+                    alt="laptop"
+                    width="200px"
+                  />
+                  <div
+                    class="card-body d-flex flex-column justify-content-end px-4"
+                  >
+                    <p
+                      class="fw-normal text-secondary mb-2"
+                      style="font-size: 12px"
+                    >
+                      علم البيانات والذكاء الاصطناعي
+                    </p>
+                    <h5 class="card-title m-0">
+                      تطبيق قاعدة بيانات SQL باستخدام لغة Python
+                    </h5>
+                    <ul
+                      class="list-unstyled mb-3 d-flex gap-5 p-0"
+                      style="font-size: 12px; color: #c56b37"
+                    >
+                      <li>برنامج-أسبوع</li>
+                      <li>كبار</li>
+                    </ul>
+                    <ul
+                      class="text-secondary text-success pe-3 p-0 m-0"
+                      style="font-size: 2em"
+                    >
+                      <li
+                        class="fw-normal align-middle"
+                        style="font-size: 12px"
+                      >
+                        ينتهي بعد 8 أيام
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-4" style="min-width: 300px">
+              <div
+                class="card h-100 p-0 px-3 pt-5 mb-5 rounded-5 border-0 bg-light"
+              >
+                <!-- Mind Card -->
+                <div>
                   <img
                     src="https://cdn.tuwaiq.edu.sa/initiatives_admin/images/pxhazeai.5tg.png"
                     class="card-img-top p-4"
@@ -782,7 +852,7 @@
               <a
                 href="https://satr.codes/"
                 target="_blank"
-                class="btn text-white px-4 py-2 rounded-pill"
+                class="btn text-white px-4 py-2 rounded-pill d-none d-lg-block d-md-block"
                 style="background: linear-gradient(to left, #d54bae, #f1627a)"
               >
                 ابدأ بالتعلم
@@ -984,16 +1054,14 @@
 
       <!-- Forth Section Start -->
       <section class="py-4 bg-light">
-        <h2 class="h3 fw-semibold mb-4">أرقام الأكاديمية</h2>
+        <h2 class="h3 fw-semibold mb-4 px-3">أرقام الأكاديمية</h2>
         <div class="container">
-          <div class="row">
+          <div class="row g-3">
             <!-- Left Column Start -->
-            <div class="col-12 col-lg-3 p-0">
-              <div
-                class="card border-0 rounded-4 bg-white overflow-hidden h-100"
-              >
+            <div class="col-12 col-lg-3">
+              <div class="card border-0 rounded-4 bg-white h-100">
                 <div
-                  class="card-body d-flex flex-column justify-content-between"
+                  class="card-body d-flex flex-column justify-content-between position-relative"
                 >
                   <div class="text-end">
                     <h5 class="card-title fs-5 mb-3">شراكة عالمية</h5>
@@ -1002,8 +1070,9 @@
                   </div>
                   <img
                     src="https://tuwaiq.edu.sa/img/numbers_hero.png"
-                    class="img-fluid bottom-0 position-absolute"
+                    class="img-fluid mt-3"
                     alt="شركاء عالميون"
+                    style="max-width: 200px; margin-left: auto"
                   />
                 </div>
               </div>
@@ -1012,13 +1081,10 @@
 
             <!-- Right Column Start-->
             <div class="col-12 col-lg-9">
-              <div class="row g-4">
-                <!-- Top Row -->
-                <div class="col-12 col-md-5">
-                  <div
-                    class="card border-0 rounded-4 bg-white h-100 overflow-hidden"
-                  >
-                    <div class="card-body pb-0">
+              <div class="row g-3">
+                <div class="col-12 col-md-6 col-lg-5">
+                  <div class="card border-0 rounded-4 bg-white h-100">
+                    <div class="card-body position-relative">
                       <div class="text-end">
                         <h5 class="card-title fs-5 mb-3">
                           عدد المعسكرات والبرامج
@@ -1026,81 +1092,70 @@
                         <h3 class="fw-semibold mb-2">1,836</h3>
                         <small class="text-muted">معسكر وبرنامج</small>
                       </div>
-                      <div>
-                        <img
-                          src="https://tuwaiq.edu.sa/img/numberOfBootcampsAndPrograms.png"
-                          class="img-fluid bottom-0 start-0 position-absolute"
-                          alt="معسكرات تدريب"
-                        />
-                      </div>
+                      <img
+                        src="https://tuwaiq.edu.sa/img/numberOfBootcampsAndPrograms.png"
+                        class="img-fluid mt-3"
+                        alt="معسكرات تدريب"
+                        style="max-width: 150px"
+                      />
                     </div>
                   </div>
                 </div>
 
-                <div class="col-12 col-md-7">
-                  <div
-                    class="card border-0 rounded-4 bg-white h-100 overflow-hidden"
-                  >
-                    <div class="card-body pb-0">
+                <div class="col-12 col-md-6 col-lg-7">
+                  <div class="card border-0 rounded-4 bg-white h-100">
+                    <div class="card-body">
                       <div class="text-end">
                         <h5 class="card-title fs-5 mb-3">عدد الخريجين</h5>
                         <h3 class="fw-semibold mb-2">32,016</h3>
                         <small class="text-muted">متدرب حضوري</small>
                       </div>
-                      <div>
-                        <img
-                          src="https://tuwaiq.edu.sa/img/numberOfInPersonTrainees.png"
-                          class="img-fluid float-start"
-                          alt="خريجين"
-                        />
-                      </div>
+                      <img
+                        src="https://tuwaiq.edu.sa/img/numberOfInPersonTrainees.png"
+                        class="img-fluid mt-3"
+                        alt="خريجين"
+                        style="max-width: 200px; margin-left: auto"
+                      />
                     </div>
                   </div>
                 </div>
               </div>
 
-              <!-- Bottom Row -->
-              <div class="row g-4 mt-2">
-                <div class="col-12 col-md-7">
-                  <div
-                    class="card border-0 rounded-4 bg-white h-100 overflow-hidden"
-                  >
-                    <div class="card-body pb-0">
+              <div class="row g-3 mt-0 mt-md-2">
+                <div class="col-12 col-md-6 col-lg-7">
+                  <div class="card border-0 rounded-4 bg-white h-100">
+                    <div class="card-body">
                       <div class="text-end">
                         <h5 class="card-title fs-5 mb-3">منصة سطر</h5>
                         <h3 class="fw-semibold mb-2">888,746</h3>
                         <small class="text-muted fw-normal">متدرب</small>
                       </div>
-                      <div>
-                        <img
-                          src="https://tuwaiq.edu.sa/img/SatrPlatform.png"
-                          class="img-fluid bottom-0 start-0 position-absolute"
-                          alt="منصة سطر"
-                        />
-                      </div>
+                      <img
+                        src="https://tuwaiq.edu.sa/img/SatrPlatform.png"
+                        class="img-fluid mt-3"
+                        alt="منصة سطر"
+                        style="max-width: 180px"
+                      />
                     </div>
                   </div>
                 </div>
 
-                <div class="col-12 col-md-5">
-                  <div
-                    class="card border-0 rounded-4 bg-white h-100 overflow-hidden"
-                  >
+                <div class="col-12 col-md-6 col-lg-5">
+                  <div class="card border-0 rounded-4 bg-white h-100">
                     <div class="card-body">
                       <div class="text-end">
-                        <h5 class="card-title fs-5 mb-3 h-100">
+                        <h5 class="card-title fs-5 mb-3">
                           نسبة توظيف خريجي المعسكرات
                         </h5>
                         <h3 class="fw-semibold mb-2">80%</h3>
                         <small class="text-muted">موظف</small>
                       </div>
-                      <div>
-                        <img
-                          src="https://tuwaiq.edu.sa/img/numberOfHiredGraduted.png"
-                          class="img-fluid"
-                          alt="توظيف الخريجين"
-                        />
-                      </div>
+                      <img
+                        src="https://tuwaiq.edu.sa/img/numberOfHiredGraduted.png"
+                        class="img-fluid mt-3"
+                        alt="توظيف الخريجين"
+                        style="max-width: 120px; margin-left: auto"
+                      />
                     </div>
                   </div>
                 </div>

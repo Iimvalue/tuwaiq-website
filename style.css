@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Cairo:wght@200..1000&family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
 :root {
   --bs-primary: #4f29b7;
   --bs-secondary: #e3d8ff;
@@ -116,7 +118,6 @@ a {
 
 .bg-zoom-transition:hover {
   transform: scale(1.03) rotate(3deg); /* Adjusted for subtle rotation */}
-@import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Cairo:wght@200..1000&family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 
 body {
     font-family: "IBM Plex Sans Arabic", sans-serif;

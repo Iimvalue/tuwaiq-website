@@ -28,7 +28,7 @@
         >
           <div class="container-fluid p-1">
             <button
-              class="navbar-toggler"
+              class="navbar-toggler custom-toggler p-1"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#navbarNav"
@@ -36,20 +36,22 @@
               aria-expanded="false"
               aria-label="Toggle navigation"
             >
-              <span class="navbar-toggler-icon"></span>
+              <svg
+                width="21"
+                height="9"
+                viewBox="0 0 21 9"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <rect x="6" width="15" height="2" rx="1" fill="#684F46"></rect>
+                <rect y="7" width="15" height="2" rx="1" fill="#684F46"></rect>
+              </svg>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav d-flex gap-4 align-items-center p-0">
                 <li class="nav-item">
-                  <a class="nav-link" aria-current="page" href="./index.html"
-                    >الرئيسية</a
-                  >
-                </li>
-
-                <li class="nav-item">
                   <a
-                    class="nav-link text-white"
-                    href="./about.html"
+                    class="nav-link active text-white"
                     style="
                       background-color: #4f29b7;
                       padding-top: 0.75rem;
@@ -58,6 +60,14 @@
                       padding-right: 1.25rem;
                       border-radius: 0.75rem;
                     "
+                    aria-current="page"
+                    href="./index.html"
+                    >الرئيسية</a
+                  >
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link text-dark" href="./about.html"
                     >حول الأكادمية</a
                   >
                 </li>
@@ -65,7 +75,9 @@
                 <li class="nav-item">
                   <a class="nav-link text-dark" href="#">الأكادميات التابعة</a>
                 </li>
-                <li class="nav-item d-flex align-items-center">
+                <li
+                  class="nav-item d-flex align-items-center d-lg-block d-lg-block d-none"
+                >
                   <div class="vr" style="height: 28px"></div>
                 </li>
 
@@ -83,7 +95,9 @@
                   <a class="nav-link text-dark" href="#">الإعتمادات</a>
                 </li>
 
-                <li class="nav-item d-flex align-items-center">
+                <li
+                  class="nav-item d-flex align-items-center d-lg-block d-none"
+                >
                   <div class="vr" style="height: 28px"></div>
                 </li>
 
@@ -100,12 +114,24 @@
                     En
                   </button>
                 </li>
+
+                <li>
+                  <button
+                    class="btn text-white fw-medium d-lg-none d-block"
+                    style="
+                      background-color: #4f29b7;
+                      border-radius: 0.75rem;
+                      padding: 8px 16px;
+                    "
+                  >
+                    تسجيل الدخول
+                  </button>
+                </li>
               </ul>
             </div>
           </div>
         </nav>
-
-        <div>
+        <div class="d-none d-lg-block">
           <button
             class="btn text-white fw-medium p-2 px-3"
             style="background-color: #4f29b7; border-radius: 0.75rem"
