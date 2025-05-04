@@ -51,7 +51,16 @@
               <ul class="navbar-nav d-flex gap-4 align-items-center p-0">
                 <li class="nav-item">
                   <a
-                    class="nav-link active text-white"
+                    class="nav-link active text-black"
+                    aria-current="page"
+                    href="./index.html"
+                    >الرئيسية</a
+                  >
+                </li>
+
+                <li class="nav-item">
+                  <a
+                    class="nav-link text-white"
                     style="
                       background-color: #4f29b7;
                       padding-top: 0.75rem;
@@ -60,14 +69,7 @@
                       padding-right: 1.25rem;
                       border-radius: 0.75rem;
                     "
-                    aria-current="page"
-                    href="./index.html"
-                    >الرئيسية</a
-                  >
-                </li>
-
-                <li class="nav-item">
-                  <a class="nav-link text-dark" href="./about.html"
+                    href="./about.html"
                     >حول الأكادمية</a
                   >
                 </li>
@@ -162,7 +164,7 @@
             </video>
           </div>
 
-          <div class="col-lg-4 d-flex flex-column gap-3">
+          <div class="col-lg-4 d-flex flex-column flex-sm-column gap-3 order-2">
             <div class="d-flex gap-3">
               <div
                 class="flex-fill position-relative bg-opacity-25 p-4 rounded-4 d-flex flex-column justify-content-between"
@@ -176,7 +178,8 @@
                 <img
                   src="./image/teacher.png"
                   alt="icon"
-                  style="width: 18vh; position: absolute; bottom: 0px"
+                  class="img-fluid"
+                  style="width: 40%; position: absolute; bottom: 0px"
                 />
               </div>
 
@@ -194,12 +197,8 @@
                 <img
                   src="./image/student.png"
                   alt="icon"
-                  style="
-                    width: 18vh;
-                    position: absolute;
-                    bottom: 0px;
-                    left: 0px;
-                  "
+                  class="img-fluid"
+                  style="width: 40%; position: absolute; bottom: 0px; left: 0px"
                 />
               </div>
             </div>
@@ -216,7 +215,8 @@
               <img
                 src="./image/program.png"
                 alt="icon"
-                style="width: 20vh; position: absolute; bottom: 0px; left: 15px"
+                class="img-fluid"
+                style="width: 40%; position: absolute; bottom: 0px; left: 15px"
               />
             </div>
           </div>
@@ -224,15 +224,7 @@
       </div>
     </section>
 
-    <section
-      class="bg-light"
-      style="
-        padding-top: 5rem;
-        padding-bottom: 5rem;
-        border: none;
-        height: 65vh;
-      "
-    >
+    <section class="bg-light py-5" style="border: none">
       <div>
         <h1 class="fw-bold mt-5 mb-4" style="font-size: 3.4rem">من نحن؟</h1>
         <p style="font-size: 1.5rem; line-height: 2rem">
@@ -362,7 +354,7 @@
       </div>
     </section>
 
-    <section class="bg-light py-5" style="border: none; min-height: 75vh">
+    <section class="bg-light py-5" style="border: none">
       <div class="">
         <div>
           <h1 class="fw-bold my-5" style="font-size: 3.4rem">
@@ -585,5 +577,11 @@
         </div>
       </div>
     </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.min.js"
+      integrity="sha384-VQqxDN0EQCkWoxt/0vsQvZswzTHUVOImccYmSyhJTp7kGtPed0Qcx8rK9h9YEgx+"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
